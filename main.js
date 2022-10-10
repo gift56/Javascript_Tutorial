@@ -42,3 +42,38 @@ console.log(x);
 6. lastly console.log(each and every number above) and display them on the webpage.
 
 */
+
+const myPi = 3.14;
+
+demo.innerHTML = myPi;
+
+console.log("Pi:", myPi);
+
+let answer = 22 / 7;
+
+demo2.innerHTML = answer;
+
+console.log("Answer", answer);
+
+const Contries = ["Nigeria", "Ghana", "Kongo"];
+
+demo3.innerHTML = Contries[0];
+
+console.log("Countries", Contries);
+
+let Ages;
+
+Ages = [10, 20, 30];
+
+demo4.innerHTML = Ages[0];
+
+console.log("Ages", Ages);
+
+const Persons1 = "Efe Gift";
+
+const Persons2 = "Asieghwu";
+
+console.log("FirstName : ", Persons1 + " " + "LastName : ", Persons2);
+
+firstName.innerHTML = Persons1;
+lastName.innerHTML = Persons2;
