@@ -105,3 +105,16 @@ const phone = {
 };
 
 console.log(phone.model);
+
+// Todays Assignment
+/*
+1. create an object using the const keyword and the object should be of your own Identity
+2. create a fuction that returns and object and the object should have a method() and the object should be based on a car
+3. create a Precedence operation and the answer should be 99000 and you should use three arithmetics operator.
+4. create a boolean data type and determine if it's true or false using logical operator.
+5. create a function that has two parameters and assign the function to a const varible
+
+All of this assignment should show on the console.log and on the home page.
+
+
+*/
