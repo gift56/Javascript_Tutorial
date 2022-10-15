@@ -42,7 +42,7 @@ console.log(x);
 6. lastly console.log(each and every number above) and display them on the webpage.
 
 */
-
+/*
 const myPi = 3.14;
 
 demo.innerHTML = myPi;
@@ -77,7 +77,31 @@ console.log("FirstName : ", Persons1 + " " + "LastName : ", Persons2);
 
 firstName.innerHTML = Persons1;
 lastName.innerHTML = Persons2;
-
+*/
 
 // Starurdays class 10/15/2022
 
+let x = 5;
+let a = 4;
+let b = 2;
+
+const equation = x * a + b;
+
+demo.innerHTML = equation;
+
+// function myFunction() {
+//   return 5 + 6;
+// }
+
+// alert(myFunction());
+
+const phone = {
+  name: "Techno",
+  model: "Pop 6 pro",
+  inches: "5.6 inch",
+  details: function () {
+    return this.name + " " + this.model;
+  },
+};
+
+console.log(phone.model);
