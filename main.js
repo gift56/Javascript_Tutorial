@@ -77,3 +77,7 @@ console.log("FirstName : ", Persons1 + " " + "LastName : ", Persons2);
 
 firstName.innerHTML = Persons1;
 lastName.innerHTML = Persons2;
+
+
+// Starurdays class 10/15/2022
+
