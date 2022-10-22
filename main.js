@@ -118,3 +118,11 @@ All of this assignment should show on the console.log and on the home page.
 
 
 */
+
+function date() {
+  return (time.innerHTML = Date());
+}
+
+document.getElementById("btn").addEventListener("click", date);
+
+console.log(date());
